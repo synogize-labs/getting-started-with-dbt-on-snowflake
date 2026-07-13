@@ -5,15 +5,7 @@ tasty_bytes:
       type: snowflake
       account: 'not needed'
       user: 'not needed'
-      role: accountadmin
-      database: tasty_bytes_dbt_db
-      schema: dev
-      warehouse: tasty_bytes_dbt_wh
-    prod:
-      type: snowflake
-      account: 'not needed'
-      user: 'not needed'
-      role: accountadmin
-      database: tasty_bytes_dbt_db
-      schema: prod
-      warehouse: tasty_bytes_dbt_wh
+      role: ORCHESTRA_ROLE
+      database: PLATTI_DEMO_DATA
+      schema: DEMO_DBT_CORE
+      warehouse: ORCHESTRA_WH
